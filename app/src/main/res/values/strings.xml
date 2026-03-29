@@ -2,4 +2,8 @@
     <string name="app_name">Social Sparks</string>
     <string name="appname">Welcome to Social Sparks</string>
     <string name="start">Start Socialising</string>
+    <string name="sparks">Start Finding your spark</string>
+    <string name="Reset">Reset</string>
+    <string name="Exit">Exit</string>
+    <string name="Enter">Enter</string>
 </resources>

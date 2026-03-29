@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/appname"
@@ -22,16 +23,17 @@
         app:layout_constraintVertical_bias="0.074" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginEnd="161dp"
-        android:layout_marginBottom="188dp"
-        android:backgroundTint="@android:color/holo_orange_light"
-        android:text="Welcome to Social Sparks"
+        android:id="@+id/button5"
+        android:layout_width="237dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="199dp"
+        android:text="@string/sparks"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
