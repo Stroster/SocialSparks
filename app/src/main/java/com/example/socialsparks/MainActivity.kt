@@ -1,6 +1,8 @@
 package com.example.socialsparks
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,7 +18,11 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        val start = findViewById<Button>(R.id.button5)
 
-
+        start.setOnClickListener {
+            startActivity(Intent(this@MainActivity, MainScreen::class.java))
+            finish()
+        }
     }
 }

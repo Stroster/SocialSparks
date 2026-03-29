@@ -6,4 +6,6 @@
     <string name="Reset">Reset</string>
     <string name="Exit">Exit</string>
     <string name="Enter">Enter</string>
+    <string name="Sparkshower">Spark Shower</string>
+    <string name="Day">Enter the time of day</string>
 </resources>
