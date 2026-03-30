@@ -3,6 +3,7 @@ package com.example.socialsparks
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -37,6 +38,18 @@ class MainScreen : AppCompatActivity() {
 
         enter.setOnClickListener {
             val userInput = inputText?.text.toString().trim().lowercase()
+
+            if (userInput.isEmpty()) {
+                Toast.makeText(this, "Please enter a time of day ", Toast.LENGTH_SHORT).show()
+                output.text = ""
+                return@setOnClickListener
+            }
+
+            if (userInput.any { it.isDigit() }) {
+                Toast.makeText(this, "Numbers are not allowed ", Toast.LENGTH_SHORT).show()
+                output.text = ""
+                return@setOnClickListener
+            }
 
             if (userInput == "morning") {
                 output.text = "Send a 'Good morning' text to a family member."
