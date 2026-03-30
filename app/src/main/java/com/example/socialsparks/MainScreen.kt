@@ -39,6 +39,7 @@ class MainScreen : AppCompatActivity() {
         enter.setOnClickListener {
             val userInput = inputText?.text.toString().trim().lowercase()
 
+            //Some error handling for the user input
             if (userInput.isEmpty()) {
                 Toast.makeText(this, "Please enter a time of day ", Toast.LENGTH_SHORT).show()
                 output.text = ""
@@ -51,6 +52,7 @@ class MainScreen : AppCompatActivity() {
                 return@setOnClickListener
             }
 
+            //When user inputs morning output will appear on the textview
             if (userInput == "morning") {
                 output.text = "Send a 'Good morning' text to a family member."
                 inputLayout.error = null
@@ -74,6 +76,8 @@ class MainScreen : AppCompatActivity() {
             } else if (userInput == "night" || userInput == "after dinner") {
                 output.text = "Leave a thoughtful comment on a friend's post."
                 inputLayout.error = null
+
+                //An error message that will appear when the user inputs an invalid input
 
             } else {
                 inputLayout.error = "Invalid input! Try Morning, Afternoon, Dinner..."
