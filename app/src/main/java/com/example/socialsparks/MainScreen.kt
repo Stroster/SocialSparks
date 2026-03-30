@@ -46,6 +46,7 @@ class MainScreen : AppCompatActivity() {
                 return@setOnClickListener
             }
 
+            //if user enters a integer instead of the time of day
             if (userInput.any { it.isDigit() }) {
                 Toast.makeText(this, "Numbers are not allowed ", Toast.LENGTH_SHORT).show()
                 output.text = ""
