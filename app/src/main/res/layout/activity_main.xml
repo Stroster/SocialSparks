@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wallpapersden_com_artistic_shapes_4k_warm_colorful_6000x3375"
+    android:background="@drawable/pexels_timmossholder_3612885"
     tools:context=".MainActivity">
 
     <TextView
