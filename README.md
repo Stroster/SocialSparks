@@ -15,7 +15,7 @@ The primary goal of Social Sparks is to facilitate meaningful social interaction
 - **Modern Android Development**: Built using Kotlin and modern libraries, following best practices for performance and maintainability.
 - **Material Design**: Utilizes Material 3 components for a consistent and high-quality user experience.
 - **Target SDK**: Optimized for the latest Android features by targeting API Level 36.
-<img width="793" height="684" alt="image" src="https://github.com/user-attachments/assets/c8273066-6dfb-415a-83e4-b3a1f514971e" />
+<img width="715" height="687" alt="image" src="https://github.com/user-attachments/assets/d37d3629-3578-42b7-8dc5-a368078cb4b1" />
 <img width="782" height="723" alt="image" src="https://github.com/user-attachments/assets/8cfed756-2cb4-46c7-a517-c8d3fe998680" />
 <img width="1309" height="932" alt="image" src="https://github.com/user-attachments/assets/ea798f96-23f7-4e15-bcfa-936d3e48be85" />
 <img width="1317" height="929" alt="image" src="https://github.com/user-attachments/assets/c2085051-47de-418f-b9e6-047b7ddb205d" />
