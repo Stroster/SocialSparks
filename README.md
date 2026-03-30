@@ -17,7 +17,10 @@ The primary goal of Social Sparks is to facilitate meaningful social interaction
 - **Target SDK**: Optimized for the latest Android features by targeting API Level 36.
 <img width="793" height="684" alt="image" src="https://github.com/user-attachments/assets/c8273066-6dfb-415a-83e4-b3a1f514971e" />
 <img width="782" height="723" alt="image" src="https://github.com/user-attachments/assets/8cfed756-2cb4-46c7-a517-c8d3fe998680" />
-
+<img width="1309" height="932" alt="image" src="https://github.com/user-attachments/assets/ea798f96-23f7-4e15-bcfa-936d3e48be85" />
+<img width="1317" height="929" alt="image" src="https://github.com/user-attachments/assets/c2085051-47de-418f-b9e6-047b7ddb205d" />
+<img width="1326" height="921" alt="image" src="https://github.com/user-attachments/assets/9be992f6-aa6b-4fe5-a268-9646b5e59e56" />
+<img width="1323" height="899" alt="image" src="https://github.com/user-attachments/assets/29264e7c-b6c4-4467-b4f7-9e22aaded6b9" />
 
 ## GitHub & GitHub Actions
 
